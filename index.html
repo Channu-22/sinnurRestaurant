@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <header class="bg-amber-400 flex justify-between items-center px-12 py-4 ">
+        <h1 class="font-extrabold text-3xl">Logo</h1>
+        <a href="" class="min-[740px]:hidden"><i class=" fa-solid fa-bars "></i></a>
+        <nav class="max-[740px]:hidden">
+            <ul class="flex">
+                <li><a href="#" class="px-5 text-base font-medium hover:text-white">Home</a></li>
+                <li><a href="#" class="px-5 text-base font-medium hover:text-white">About</a></li>
+                <li><a href="#" class="px-5 text-base font-medium hover:text-white">Gallery</a></li>
+                <li><a href="#" class="px-5 text-base font-medium hover:text-white">Blog</a></li>
+                <li><a href="#" class="px-5 text-base font-medium hover:text-white">Contact US</a></li>
+                <li><a href="#" class="px-7 py-2 text-lg bg-black text-white rounded-md hover:bg-amber-50 hover:text-black transition-all duration-1500">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="flex max-[740px]:flex-col  gap-6 items-center justify-between px-12 py-20 bg-gray-400">
+        <div class="left max-[740px]:w-full  w-1/2">
+            <h1 class="font-extrabold text-3xl mb-4">sinnurKutumba Restaurant</h1>
+            <p class="text-base text-justify">Enjoy a steaming cup of chai to kick off your meal.
+                Relish the crisp samosa paired with tasty paneera patties.
+                Dive into the fusion delight of our Grilled Chinese Sandwich.
+                Savor a slice of pizza, a juicy burger, and a fresh sandwich.
+                Finish with a comforting bowl of maggie that warms the soul.</p>
+            <a href="" class="px-7 py-2 inline-block mt-4 rounded-md bg-gray-800 text-white hover:bg-amber-400 hover:text-black transition-all duration-1500">Contact Us</a>
+        </div>
+        <div class="right max-[740px]:w-full  w-1/2">
+            <img src="restaurant.jpeg" class="h-80 w-full cursor-pointer" alt="">
+        </div>
+    </section>
+
+
+    <!-- MENU SECTION -->
+    <div class="menu-wrapper my-8 px-12 py-4">
+        <h1 class="font-extrabold text-3xl text-center mb-5">Our Menu</h1>
+        <section class="menu flex gap-6 items-center justify-evenly flex-wrap font-bold">
+           
+            <div class="w-[47%] md:w-[30%] text-center ">
+                <img src="pizza.jpg" class="rounded-t-3xl mb-2 h-72 w-full cursor-pointer" alt="">
+                <div class="content">
+                    <h2>Pizza</h2>
+                    <p><i class="fa-solid fa-indian-rupee-sign"></i>300</p>
+                    <a href="" class="bg-blue-500 text-black hover:bg-black hover:text-white px-7 py-2 inline-block rounded-md mt-2 font-medium transition-all duration-1000">Add To cart</a>
+                </div>
+            </div>
+    
+            <div  class="w-[47%] md:w-[30%] text-center ">
+                <img src="sandwich.jpg" class="rounded-t-3xl mb-2 h-72 w-full cursor-pointer" alt="">
+                <div class="content">
+                    <h2>Grilled Chinese Sandwitch</h2>
+                    <p><i class="fa-solid fa-indian-rupee-sign"></i>150</p>
+                    <a href=""  class="bg-blue-500 text-black hover:bg-black hover:text-white px-7 py-2 inline-block rounded-md mt-2 font-medium transition-all duration-1000">Add To cart</a>
+                </div>
+            </div>
+    
+            <div  class="w-[47%] md:w-[30%] text-center ">
+                <img src="patties.jpg" class="rounded-t-3xl mb-2 h-72 w-full cursor-pointer"  alt="">
+                <div class="content">
+                    <h2>Paneer Patties</h2>
+                    <p><i class="fa-solid fa-indian-rupee-sign"></i>30</p>
+                    <a href=""  class="bg-blue-500 text-black hover:bg-black hover:text-white px-7 py-2 inline-block rounded-md mt-2 font-medium transition-all duration-1000">Add To cart</a>
+                </div>
+            </div>
+    
+            <div  class="w-[47%] md:w-[30%] text-center ">
+                <img src="samosa.jpg" class="rounded-t-3xl mb-2 h-72 w-full cursor-pointer" alt="">
+                <div class="content">
+                    <h2>Samosa</h2>
+                    <p><i class="fa-solid fa-indian-rupee-sign"></i>30</p>
+                    <a href=""  class="bg-blue-500 text-black hover:bg-black hover:text-white px-7 py-2 inline-block rounded-md mt-2 font-medium transition-all duration-1000">Add To cart</a>
+                </div>
+            </div>
+    
+            <div  class="w-[47%] md:w-[30%] text-center ">
+                <img src="burger.webp" class="rounded-t-3xl mb-2 h-72 w-full cursor-pointer" alt="">
+                <div class="content">
+                    <h2>Chinese Burger</h2>
+                    <p><i class="fa-solid fa-indian-rupee-sign"></i>250</p>
+                    <a href=""  class="bg-blue-500 text-black hover:bg-black hover:text-white px-7 py-2 inline-block rounded-md mt-2 font-medium transition-all duration-1000">Add To cart</a>
+                </div>
+            </div>
+    
+            <div class="w-[47%] md:w-[30%] text-center ">
+                <img src="chaumin.webp" class="rounded-t-3xl mb-2 h-72 w-full cursor-pointer" alt="">
+                <div class="content">
+                    <h2>Maggie</h2>
+                    <p><i class="fa-solid fa-indian-rupee-sign"></i>200</p>
+                    <a href=""  class="bg-blue-500 text-black hover:bg-black hover:text-white px-7 py-2 inline-block rounded-md mt-2 font-medium transition-all duration-1000">Add To cart</a>
+                </div>
+            </div>
+    
+        </section>
+    </div>
+
+
+    <!-- CHEFS SECTION -->
+    <section class="bg-gray-400 px-12 py-10 relative">
+        <h1 class="font-extrabold text-3xl text-center mb-5">Our Chefs</h1>
+        <div class="chef-wrapper  flex flex-wrap  items-center justify-evenly gap-6">
+            <div class="chef  w-[47%] md:w-[30%]">
+                <img src="sanjeev.jpg" class="h-72 w-full rounded-t-3xl cursor-pointer" alt="">
+                <div class="content bg-white text-center">
+                    <h2 class="font-bold ">Sanjeev Kumar</h2>
+                    <p class="text-base">Hotel Management (30 year experience)</p>
+                </div>
+            </div>
+
+            <div class="chef w-[47%] md:w-[30%]">
+                <img src="ranvir_brar.webp"  class="h-72 w-full rounded-t-3xl cursor-pointer" alt="">
+                <div class="content bg-white text-center">
+                    <h2 class="font-bold ">Ranvir Brar</h2>
+                    <p class="text-base">Hotel Management (10 year experience)</p>
+                </div>
+            </div>
+
+            <div class="chef w-[47%] md:w-[30%]">
+                <img src="Vikas-Khanna.webp"  class="h-72 w-full rounded-t-3xl cursor-pointer"  alt="">
+                <div class="content bg-white text-center">
+                    <h2 class="font-bold ">Vikas Khanna</h2>
+                    <p class="text-base">Hotel Management (20 year experience)</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="sticky top-1 right-1">
+            <h1>@CHANNU SINNUR</h1>
+        </div> -->
+    </section>
+
+
+    
+</body>
+</html>
